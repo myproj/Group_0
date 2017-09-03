@@ -1,10 +1,9 @@
 #include "functions.h"
 #include <iostream>
-#include <cstdio>
 using namespace std;
 int factorial(int n){
 	if(n<0){
-		printf("Enter a non-negative integer: ");
+		cout << "Enter a non-negative integer: ";
 		cin>>n;
 		return factorial(n);
 	}
